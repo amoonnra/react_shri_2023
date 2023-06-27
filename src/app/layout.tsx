@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
-import { Footer } from "./Components/Footer";
-import { Header } from "./Components/Header";
+import { Footer } from "../Components/Footer";
+import { Header } from "../Components/Header";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import cn from "classnames";

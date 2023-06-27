@@ -55,7 +55,7 @@ export const SelectField = <T,>({
         ))}
       </ul>
     </div>,
-    window.document.body
+    document?.body || inputRef.current?.parentElement
   );
 
   const handleChooseOption = (option: ISelectorOption<T>): void => {
@@ -85,7 +85,9 @@ export const SelectField = <T,>({
   }, [isOpen]);
 
   useEffect(() => {
-    window.addEventListener("scroll", moveHelper);
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", moveHelper);
+    }
     if (!isOpen)
       document.body.addEventListener("click", hideOptionsByClickOutside);
     return () => {

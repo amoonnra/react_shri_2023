@@ -1,5 +1,5 @@
-import { Sidebar } from './Components/Sidebar'
-import { Content } from './Components/Content'
+import { Sidebar } from "../Components/Sidebar";
+import { Content } from "../Components/Content";
 
 export default function Home() {
   return (
@@ -7,5 +7,5 @@ export default function Home() {
       <Sidebar />
       <Content />
     </>
-  )
+  );
 }

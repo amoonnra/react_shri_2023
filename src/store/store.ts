@@ -1,4 +1,4 @@
-import filterReducer from "@/app/Filter/Slice/reducer";
+import filterReducer from "@/Filter/Slice/reducer";
 import { configureStore } from "@reduxjs/toolkit";
 import { moviesApi } from "./movieReducer";
 import { setupListeners } from "@reduxjs/toolkit/dist/query";

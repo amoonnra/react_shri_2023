@@ -1,7 +1,7 @@
 "use client";
 
 import { FC } from "react";
-import styles from "../page.module.scss";
+import styles from "../app/page.module.scss";
 import { useGetAllMoviesQuery } from "@/store/movieReducer";
 import { useAppSelector } from "@/store/hooks";
 import { TicketCardsList } from "@/Common/Components/TicketCardsList";

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Cart } from "../../Common/Components/Cart";
+import { Cart } from "../Common/Components/Cart";
 import Link from "next/link";
 
 const Logo: FC = () => (

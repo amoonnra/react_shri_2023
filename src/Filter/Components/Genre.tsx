@@ -1,4 +1,5 @@
-import { Divider } from "@/UI/Divider";
+'use client'
+
 import { SelectField } from "@/UI/SelectField";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
 import { useEffect, useState } from "react";

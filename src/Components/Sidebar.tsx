@@ -2,7 +2,7 @@
 
 import React, { FC } from "react";
 import cn from "classnames";
-import styles from "../page.module.scss";
+import styles from "../app/page.module.scss";
 import { MainFilter } from "../Filter";
 
 const cx = cn.bind(styles);
