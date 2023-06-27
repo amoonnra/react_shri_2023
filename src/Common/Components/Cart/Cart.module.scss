@@ -1,0 +1,27 @@
+.basket {
+	display: flex;
+	align-items: center;
+
+  .numLabel {
+    background-color: #f50;
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+	 color: #fff;
+  }
+
+  svg {
+    margin-left: 8px;
+
+    path {
+      fill: #fff;
+    }
+  }
+}

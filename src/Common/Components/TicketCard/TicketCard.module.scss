@@ -1,0 +1,82 @@
+.ticketCard {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .ticketInfo {
+    display: flex;
+  }
+
+  .poster {
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 8px;
+    color: initial;
+    text-decoration: none;
+  }
+}
+
+.buttonsBlock {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+
+  button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    svg {
+      zoom: 1.2;
+    }
+  }
+
+  .basketBlock {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+
+    span {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+    button {
+      display: flex;
+      padding: 4px;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius: 4px;
+      background-color: #f50;
+      outline: none;
+      border: none;
+
+      svg {
+        zoom: 1;
+      }
+
+      &:disabled {
+        background-color: #ffa375;
+      }
+    }
+  }
+}
